@@ -1,0 +1,590 @@
+========================================================================================
+# "BDS001" 'Basics - data - sosreport' off \
+  BDS001
+  What is a sosreport and how to create one in Red Hat Enterprise Linux 4.6 and later?
+  https://access.redhat.com/solutions/3592
+
+  BDS001 - KBC001
+  How to generate sosreport from the rescue environment
+  https://access.redhat.com/solutions/2872
+
+  BDS001
+  How to provide large files to Red Hat Support (vmcore, rhev logcollector, large sosreports, heap dumps, large log files, etc.) 
+  https://access.redhat.com/solutions/2112
+
+========================================================================================
+# "BDP001" 'Basics - data - perf | oprofile | strace | stap' off \
+
+  BDP001
+  How do I collect performance data with perf which is readable on another machine? 
+  https://access.redhat.com/solutions/386343
+
+  BDP001
+  How to open perf.data file along with a perf archive file? 
+  https://access.redhat.com/solutions/503663
+
+  BDP001
+  How to set up and use oprofile on Red Hat Enterprise Linux? 
+  https://access.redhat.com/solutions/4067
+
+  BDP001
+  How do I use strace to trace system calls made by a command? 
+  https://access.redhat.com/articles/2483
+
+  BDP001
+  What is SystemTap and how to use it? 
+  https://access.redhat.com/solutions/5441
+
+  BDP001
+  How to use the collectl utility to troubleshoot performance issues in Red Hat Enterprise Linux. 
+  https://access.redhat.com/node/351143/
+
+========================================================================================
+# "KPF001" 'Kernel - performance' off \
+
+  KPF001
+  What are CPU "C-states" and how to disable them if needed?
+  https://access.redhat.com/solutions/202743
+
+  KPF001
+  How to check CPU C-State Status on Red Hat Enterprise Linux without powertop ? 
+  https://access.redhat.com/solutions/68665
+
+  KPF001
+  Why do I want to use numad service?
+  https://access.redhat.com/articles/272093
+
+  KPF001
+  Automatically Improve NUMA System Performance with numad
+  https://access.redhat.com/articles/223693
+
+  KPF001
+  How do I use 'tuned' to apply tuning profiles to my machines? 
+  https://access.redhat.com/solutions/275403
+
+  KPF001
+  How do I choose the right tuned profile?  
+  https://access.redhat.com/solutions/369093
+
+  KPF001
+  How to create a customized tuned profile 
+  https://access.redhat.com/solutions/1305833
+
+  KPF001
+  RHEL7: How can I reduce jitter by using cgroups, CPU and IRQ pinning with tuna? 
+  https://access.redhat.com/solutions/2171211
+
+  KPF001
+  Do we need irqbalance? 
+  https://access.redhat.com/solutions/41535
+
+  KPF001
+  How to enable/disable process accounting (psacct)
+  https://access.redhat.com/solutions/284403
+
+  KPF001
+  How to use SAR to Monitor System Performance in Red Hat Enterprise Linux 
+  https://access.redhat.com/solutions/276533
+
+  KPF001
+  Red Hat Enterprise Linux Network Performance Tuning Guide
+  https://access.redhat.com/articles/1391433
+
+  KPF001
+  How to check CPU C-State Status on Red Hat Enterprise Linux without powertop ?  
+  https://access.redhat.com/solutions/68665
+
+========================================================================================
+# "KPI001" 'Kernel - performance - high io wait' off \
+
+  KPI001
+  What is "D" state (or dstate, d-state)? 
+  https://access.redhat.com/solutions/59989
+
+========================================================================================
+# "KPL001" 'Kernel - performance - high load' off "KMM001" 'Kernel - memory management' off \
+
+  KPL001 - KPI001
+  What is the relation between I/O wait and load average? 
+  https://access.redhat.com/solutions/2043
+
+  KPL001
+  What can be done about high I/O wait percentages? 
+  https://access.redhat.com/solutions/2045
+
+  KPL001
+  How is a load average calculated 
+  https://access.redhat.com/solutions/30554
+
+  KPL001
+  Why is my load average so high, even with high idle CPU times? 
+  https://access.redhat.com/solutions/41871
+
+========================================================================================
+# "KMM001" 'Kernel - memory management' off \
+
+  KMM001
+  Unaccounted memory usage when running Red Hat Enterprise Linux as a VMware guest
+  https://access.redhat.com/solutions/43729
+
+  KMM001
+  How to find out what amount of memory a VMWare balloon driver has consumed from a virtualized server
+  https://access.redhat.com/solutions/445113
+
+  KMM001
+  Memory management and tuning options in Red Hat Enterprise Linux
+  https://access.redhat.com/node/16995
+
+  KMM001
+  How to use OS utilities to track down application memory leaks
+  https://access.redhat.com/solutions/32526
+
+  KMM001
+  Why does my system utilize swap space instead of freeing up cache and buffer memory?
+  https://access.redhat.com/solutions/3367
+
+  KMM001
+  What are page allocation failures? 
+  https://access.redhat.com/articles/1360023
+
+  KMM001
+  What do the components in a page allocation failure message mean ? 
+  https://access.redhat.com/solutions/74573
+
+  KMM001
+  How to prevent a process to be a target of oom-killer? 
+  https://access.redhat.com/solutions/1171183
+
+  KMM001
+  How to check if system RAM is faulty in Red Hat Enterprise Linux? 
+  https://access.redhat.com/solutions/15693
+
+  KMM001
+  Kernel panic with several MCE logs in Red Hat Enterprise Linux 
+  https://access.redhat.com/solutions/203833
+
+  KMM001
+  Examining Huge Pages or Transparent Huge Pages performance
+  https://access.redhat.com/articles/781653
+
+========================================================================================
+# "KMF002" 'Kernel - memory management - memory full  | cache full' off \
+
+  KMF002
+  What is cache in "free -m" output and why is memory utilization high for cache? 
+  https://access.redhat.com/solutions/67610
+
+  KMF002
+  How to control the size of page cache in RHEL?
+  https://access.redhat.com/solutions/32769
+
+========================================================================================
+
+  KTV001
+  Filesystem on VMware Red Hat Enterprise Linux 4, 5, & 6 guests went read-only 
+  https://access.redhat.com/solutions/35329
+
+========================================================================================
+# "KBC001" 'Kernel - boot - cannot boot' off \
+
+  KBC001
+  Rescue mode assistant
+  https://access.redhat.com/labs/rescuemodeassistant/
+
+  KBC001
+  How do I boot using an alternate / previous / older kernel?
+  https://access.redhat.com/solutions/226423
+
+  KBC001
+  How to display more verbose boot-related messages during system startup.
+  https://access.redhat.com/solutions/28921
+
+  KBC001
+  When is it necessary to rebuild the initramfs?
+  https://access.redhat.com/solutions/453703
+
+  KBC001
+  How to rebuild the initial ramdisk image in Red Hat Enterprise Linux
+  https://access.redhat.com/solutions/1958
+
+========================================================================================
+# "KPH001" 'Kernel - panics hungs' off \
+
+  KPH001
+  How to collect system information to provide to Red Hat Support for analysis when a system hangs 
+  https://access.redhat.com/solutions/23069
+
+  KBU001 - KPH001
+  A Guide to Unexpected System Restarts
+  https://access.redhat.com/articles/206873
+
+  KPH001
+  What all panic parameters are available which I can use to panic a system when it is hanging or sluggish ?
+  https://access.redhat.com/site/solutions/459523
+
+  KPH001
+  How does Red Hat Global Support Services handle third-party software, drivers, and/or uncertified hardware/hypervisors?
+  https://access.redhat.com/articles/1067
+
+  KPH001
+  How to make sure that system will automatically reboot after a kernel panic ?
+  https://access.redhat.com/solutions/37275
+
+  KPH001
+  How to use the SysRq facility to collect information from a server which has hung
+  https://access.redhat.com/solutions/2023
+
+  KPH001
+  What is the SysRq Facility and how do I use it? 
+  https://access.redhat.com/articles/231663
+
+  KPH001
+  How can I configure my system to crash when NMI switch is pushed?
+  https://access.redhat.com/solutions/125103
+
+  KPH001
+  Why kdump did not generate vmcore in my HP ProLiant server in Red Hat Enterprise Linux? 
+  https://access.redhat.com/solutions/405643
+
+  KPH001
+  How can I disable Automatic System Recovery (ASR) on HP systems 
+  https://access.redhat.com/solutions/501543
+
+=======================================================================================
+# "KBU001" 'Kernel - boot - unexpected reboot' off \
+
+  KBU001
+  How to find which user has rebooted the system? 
+  https://access.redhat.com/solutions/41281
+
+  KBU001 
+  Determining if a High Availability Virtual Machine Monitoring event caused a virtual machine to reboot
+  http://kb.vmware.com/kb/1027734
+
+========================================================================================
+# "KTO001" 'Kernel - tunning - oracle' off \
+
+  KTO001
+  Tuning Red Hat Enterprise Linux for Oracle and Oracle RAC performance
+  https://access.redhat.com/site/solutions/39188
+
+  KTO001
+  Enabling hugepages for use with Oracle Database
+  https://access.redhat.com/solutions/69306
+
+========================================================================================
+# "KTD001" 'Kernel - tunning - database' off)
+
+  KTD001
+  What is the recommended I/O scheduler for a database workload in Red Hat Enterprise Linux?
+  https://access.redhat.com/solutions/54164
+
+========================================================================================
+# "KVC001" 'Kernel - vmcore - how to collect vmcore - sysrq | tunables' off \
+
+  KVC001
+  How to collect vmcore using kdump to troubleshoot kernel crashes, system hangs, or system reboots?
+  https://access.redhat.com/site/solutions/6038
+
+  KVC001
+  How to capture kernel crash dump (vmcore) upon Oracle RAC 11gR2 or Oracle RAC 12 node eviction ? 
+  https://access.redhat.com/solutions/972193
+  
+  KVC001
+  How do I automatically generate a vmcore to help analyse soft lockups?
+  https://access.redhat.com/site/solutions/19541
+
+  KVC001
+  How to extract the kernel ring buffer from a vmcore file
+  https://access.redhat.com/solutions/470073
+
+  KVC001
+  Kdump Helper - Access Labs
+  https://access.redhat.com/labs/kdumphelper
+
+========================================================================================
+# "KVC002" 'Kernel - vmcore - how to collect vmcore - vmware' off \
+
+  KVC002
+  How to capture a vmcore of hung Red Hat Enterprise Linux VMware® guest system using VMware® "vmss2core" tool ? 
+  https://access.redhat.com/solutions/411653
+    
+  KVC002
+  How do I capture a vmcore from a KVM or RHEV guest? 
+  https://access.redhat.com/solutions/39604 
+
+========================================================================================
+# "KIT001" 'Kernel - internals' off \
+
+  KIT001
+  What does the 'Scheduling while atomic' message mean?
+  https://access.redhat.com/solutions/45376
+
+  KIT001
+  What is the kernel hard/soft lockup detector? 
+  https://access.redhat.com/articles/1353303
+
+  KIT001
+  How do I increase the kernel log ring buffer size? 
+  https://access.redhat.com/solutions/47276
+
+  KIT001
+  How to extract the kernel ring buffer from a vmcore file 
+  https://access.redhat.com/solutions/470073
+
+  KIT001
+  Getting "BUG: soft lockup detected on CPU#N" messages running RHEL on VMWare
+  https://access.redhat.com/solutions/21849
+
+  KIT001
+  System becomes unresponsive with message "INFO: task <process>:<pid> blocked for more than 120 seconds".
+  https://access.redhat.com/solutions/31453
+
+  KIT001
+  What is the hung task watchdog?
+  https://access.redhat.com/articles/1353393
+
+  KIT001
+  What is a CPU soft lockup? 
+  https://access.redhat.com/articles/371803
+
+  KIT001
+  What is the hung task watchdog? 
+  https://access.redhat.com/articles/1353393
+
+  KIT001
+  All about "min_free_kbytes" parameter 
+  https://access.redhat.com/solutions/336033
+
+========================================================================================
+# "RSL001" 'RHEL - support and limits' off \
+
+  RSL001
+  Red Hat Enterprise Linux Life Cycle
+  https://access.redhat.com/support/policy/updates/errata
+
+  RSL001
+  Red Hat Enterprise Linux Release Dates 
+  https://access.redhat.com/articles/3078
+ 
+  RSL001
+  Red Hat Enterprise Linux technology capabilities and limits 
+  https://access.redhat.com/articles/rhel-limits
+
+  RSL001
+  What is the Red Hat Enterprise Linux Extended Life Cycle Support Add-On (ELS), and what is its support life cycle?
+  https://access.redhat.com/solutions/690063
+
+  RSL001
+  Red Hat Enterprise Linux Release Dates 
+  https://access.redhat.com/articles/3078
+
+========================================================================================
+# "KCPU001" 'cpu management' off \
+
+  KCPU001
+  How can I disable (and re-enable) CPU in SMP mode without a reboot? 
+  https://access.redhat.com/articles/2089
+
+  KCPU001
+  How to disable Hyper-Threading with CPU hotplugging in Red Hat Enterprise Linux 5 and 6? 
+  https://access.redhat.com/solutions/352663
+
+  KCPU001
+  How do I limit the number of CPUs activated in Red Hat Enterprise Linux ? 
+  https://access.redhat.com/solutions/96133
+
+  KCPU001
+  How can I dedicate one or more CPUs on a multi-processor system for exclusive use by one or more specific applications? 
+  https://access.redhat.com/solutions/15482
+
+  KCPU001
+  On an SMP system, how can I set processor affinity for a certain task or process in Red Hat Enterprise Linux?
+  https://access.redhat.com/solutions/1552
+
+========================================================================================
+# "VMT001" 'vmware tools' off \
+
+  VMT001
+  How to determine what process caused an ext3, ext4, or xfs filesystem to freeze? 
+  https://access.redhat.com/solutions/729103
+
+  VMT001
+  Deadlock with vmtoolsd, autofs and frozen filesystems 
+  https://access.redhat.com/solutions/498883
+
+  VMT001
+  How can I determine if a filesystem is frozen in a vmcore? 
+  https://access.redhat.com/articles/1225503
+
+  VMT001
+  RHEL6: Deadlock on frozen ext4 filesystem, one process stuck in thaw_bdev waiting on semaphore held by flush thread doing writeback and stuck in start_this_handle 
+  https://access.redhat.com/solutions/473213
+
+  VMT001
+  Message "audit: backlog limit exceeded" reported and possibly hung system due to a frozen filesystem
+  https://access.redhat.com/solutions/473223
+
+  VMT001
+  Why triggering panic using NMI switch on the machine is not working?
+  https://access.redhat.com/site/solutions/265173 
+
+  VMT001
+  Filesystem on VMware Red Hat Enterprise Linux 4, 5, & 6 guests went read-only 
+  https://access.redhat.com/solutions/35329
+
+  VMT001
+  Are hardware power management features causing latency spikes in my application? 
+  https://access.redhat.com/articles/65410
+
+========================================================================================
+# "VMW001" 'vmware' off \
+
+  VMW001
+  Determining if a High Availability Virtual Machine Monitoring event caused a virtual machine to reboot (1027734) 
+  https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1027734
+
+  VMW001
+  System crash at activate_task() which was called from VMCI module 
+  https://access.redhat.com/solutions/1582653
+
+========================================================================================
+# "CLU001" 'clusterha' off \
+
+  CLU001
+  Collecting supplemental system utilization statistics for fence events or performance problems in RHEL High Availability or Resilient Storage clusters 
+  https://access.redhat.com/solutions/368393
+
+========================================================================================
+# "SYDRHEL" 'systemd rhel7' off \
+
+  SYDRHEL
+  How to analyse slow boot in RHEL7 
+  https://access.redhat.com/node/2478981
+
+  SYDRHEL
+  How to increase the entropy pool without using a keyboard or mouse? 
+  https://access.redhat.com/solutions/19866
+
+========================================================================================
+# "GRUB001" 'grub' off \
+
+  GRUB001
+  How to manually modify the boot parameter in grub before the system boots
+  https://access.redhat.com/solutions/32726
+
+========================================================================================
+# "HYPERV001" 'hyperv' off \
+
+  HYPERV001
+  Unaccounted memory usage when running Red Hat Enterprise Linux as a Hyper-V guest
+  https://access.redhat.com/solutions/877233
+
+========================================================================================
+# "CONS001" 'serial console' off \
+
+  CONS001
+  How does one set up a serial terminal and/or console in Red Hat Enterprise Linux? 
+  https://access.redhat.com/node/7212
+
+========================================================================================
+# "CGRP001" 'cgroups' off \
+
+  CGRP001
+  How do I limit the available CPUs with cgroups? 
+  https://access.redhat.com/solutions/356863
+
+  CGRP001
+  Limit single process CPU usage in RHEL6 with cgroups 
+  https://access.redhat.com/solutions/2608691
+
+  CGRP001
+  How to use cgroup cpusets with systemd in RHEL7? 
+  https://access.redhat.com/solutions/1445073
+
+  CGRP001
+  What does the message "kernel: Machine check events logged" mean? 
+  https://access.redhat.com/solutions/39507z
+
+========================================================================================
+# "CP001" 'customer portal' off \
+
+  CP001
+  Adding additional email contacts in a Support Case on the Customer Portal 
+  https://access.redhat.com/solutions/229113
+
+  CP001
+  Adding additional email contacts in a Support Case on the Customer Portal 
+  Determine whether a task is getting all the CPU cycles of a processor 
+  https://access.redhat.com/articles/781943
+
+  CP001
+  Adding additional email contacts in a Support Case on the Customer Portal 
+  Determining what code kernel kworker and softirq threads are executing 
+  https://access.redhat.com/articles/782003
+
+
+========================================================================================
+# "KRHEL7001" 'RHEL7 kernels' off \
+
+  KRHEL7001
+  Kernel panic or soft lockup in netlink_compare in Red Hat Enterprise Linux 7
+  https://access.redhat.com/solutions/2647381
+
+  KRHEL7001
+  Applications using IPC (semaphores, shared memory, message queues) have problems after update to RHEL 7.2 
+  https://access.redhat.com/solutions/2062273  
+
+  KRHEL7001
+  Is live kernel patching (kpatch) supported in RHEL 7? 
+  https://access.redhat.com/solutions/2206511
+
+========================================================================================
+# "KRHEL6001" 'RHEL6 kernels' off \
+
+  KRHEL6001
+  2.6.32-573.18.1 or 2.6.32-504.43.1.el6
+  Kernel panic in unlink_anon_vmas() while freeing anonymous pages. 
+  https://access.redhat.com/solutions/2181181
+
+  KRHEL6001
+  Enabling Transparent huge page in Red Hat Enterprise Linux 6 causes cpu spike and performance problems, why? 
+  https://access.redhat.com/solutions/280443
+
+  KRHEL6001
+  RHEL6: race condition in hugetlb code in kernels newer than kernel-2.6.32-504.24.3 
+  https://access.redhat.com/solutions/1992703
+
+  KRHEL6001
+  Load average is higher or more sporadic after updating to kernel-2.6.32-573.22.1.el6 
+  https://access.redhat.com/solutions/2253721
+
+  KRHEL6001
+  2.6.32-504 up to and including 2.6.32-504.12.2
+  Upgrading to RHEL 6.6, 7.0 or 7.1 may result in an application, using futexes, appearing to stall in futex_wait() 
+  https://access.redhat.com/solutions/1386323
+
+  KRHEL6001
+  Setting vm.swappiness=0 on RHEL-6.4 can cause OOM conditions. 
+  https://access.redhat.com/solutions/1149413
+
+  KRHEL6001
+  RHEL6: race condition in hugetlb code in kernels newer than kernel-2.6.32-504.24.3 
+  https://access.redhat.com/solutions/1992703  
+
+  KRHEL6001
+  Kdump cannot start when booting the system, with error "kdump: mkdumprd: failed to make kdump initrd" 
+  https://access.redhat.com/solutions/180113
+
+  KRHEL6001
+  rhel6: How big can a kdump be, with the default "-c -d31" parameters?
+  https://access.redhat.com/solutions/1757593
+  
+MOJO
+====
+
+  GSS - How to build a test kernel for customer use using brew and rhpkg
+  https://mojo.redhat.com/docs/DOC-994332
+
+  building test kernel (the lazy way)
+  https://mojo.redhat.com/docs/DOC-1049414
